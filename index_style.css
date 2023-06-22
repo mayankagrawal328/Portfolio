@@ -1,0 +1,191 @@
+body{
+    background-color: black;          
+}
+
+.nav{
+    padding-top: 0.7rem;
+    position: sticky;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    top: 0rem;
+    background-color: black;
+}
+
+.nav a{
+    color:white;
+    text-decoration-color: black;
+    padding-right: 4%;
+    padding-left: 4%;
+    font-size: 120%;
+    float:right;
+    transition: text-decoration 0.3s;
+} 
+.nav a:hover{
+    color:white;
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 0.15rem;
+    padding-right: 4%;
+    padding-left: 4%;
+    font-size: 120%;
+    float:right;
+}
+
+
+.nav .Name{
+    padding-left: 2rem;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.job{
+    padding-left: 23.4%;
+    font-size: 200%;
+    color: #ffffff;
+}
+.SubTitle{
+    padding-left: 23.4%;
+    font-size: 250%;
+    color: #ffffff;    
+}
+span span{
+    color: #fb0303;
+}
+
+img{
+    height: 31%;
+    width: 31%;
+    float: right;
+}
+ul{
+    font-size: 1.5rem;
+}
+
+.list{
+    margin-left: 12%;
+    color:#ffffff;
+    font-size: 150%;
+}
+#topic1, #topic2, #topic3, #topic4{
+    color: #ffffff;
+    padding-left: 50%;
+    font-size: 250%;    
+}
+
+#card{
+    background-color: #090909;
+    display: block;
+    border-radius: 1%;
+    box-shadow: 0px  0px 5px #050505;
+}
+#card1{
+    background-color: black;
+    display: block;
+    border-radius: 1%;
+    box-shadow: 0px  0px 5px #050505;
+}
+
+.parallex{
+    position: sticky;
+    z-index: -1;
+    top: 0%;
+}
+a{
+    color: white;
+    transition: color 0.3s;
+}
+a:hover{
+    color: rgb(255, 0, 0);
+}
+
+@media only screen and (max-width: 700px) {
+    .nav a{
+        color:white;
+        text-decoration-color: black;
+        padding-right: 1%;
+        padding-left: 1%;
+        font-size: 120%;
+        float:right;
+        transition: text-decoration 0.3s;
+    } 
+    .nav a:hover{
+        color:white;
+        text-decoration: underline;
+        text-decoration-color: red;
+        text-decoration-thickness: 0.15rem;
+        padding-right: 1%;
+        padding-left: 1%;
+        font-size: 120%;
+        float:right;
+    }
+    .SubTitle{
+        padding-left: 5%;
+        font-size: 250%;
+        color: #ffffff;    
+    }
+    .job{
+        padding-left: 5%;
+        font-size: 200%;
+        color: #ffffff;
+    }
+
+  }
+  @media only screen and (max-width: 475px) {
+    .nav a{
+        color:rgb(255, 255, 255);
+        text-decoration-color: black;
+        padding-right: 0%;
+        padding-left: 1%;
+        font-size: 100%;
+        float:right;
+        transition: text-decoration 0.3s;
+    } 
+    .nav a:hover{
+        color:white;
+        text-decoration: underline;
+        text-decoration-color: red;
+        text-decoration-thickness: 0.15rem;
+        padding-right: 1%;
+        padding-left: 1%;
+        font-size: 120%;
+        float:right;
+    }
+    .SubTitle{
+        padding-left: 0%;
+        font-size: 190%;
+        color: #ffffff;    
+    }
+    .job{
+        padding-left: 0%;
+        font-size: 200%;
+        color: #ffffff;
+    }
+    .nav .Name{
+        padding-left: 0%;
+        font-size: 100%;
+        color: #ffffff;
+    }
+    img{
+        height: 47%;
+        width: 47%;
+        float: right;
+    }
+    
+.list{
+    margin-left: 0%;
+    color:#ffffff;
+    font-size: 100%;
+}
+
+ul{
+    font-size: 1rem;
+}
+
+.list{
+    margin-left: 1%;
+    color:#ffffff;
+    font-size: 100%;
+}
+  }
